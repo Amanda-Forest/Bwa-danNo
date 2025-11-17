@@ -12,9 +12,11 @@
         android:id="@+id/flashcard_question"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:elevation="5dp"
         android:layout_marginTop="50dp"
         android:gravity="center"
-        android:background="#34a1eb"
+        android:textColor="#fafbfc"
+        android:background="@drawable/card_background"
         android:text="Qui est le president de la France?"
         android:textSize="40sp"
         tools:layout_editor_absoluteX="0dp"
@@ -23,28 +25,58 @@
     <TextView
         android:id="@+id/flashcard_answer"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="100dp"
         android:layout_below="@+id/flashcard_question"
-        android:layout_marginTop="169dp"
+        android:layout_marginTop="27dp"
+        android:background="#ded6cc"
         android:gravity="center"
-        android:background="#34eb55"
         android:text="Emmanuel Macron"
+        android:textColor="#fafbfc"
         android:textSize="40sp"
         android:visibility="invisible" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <TextView
+        android:id="@+id/flashcard_answer2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:layout_below="@+id/flashcard_answer"
-        android:layout_margin="10dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="10dp"
-        android:drawableTint="#1b069e"
-        app:icon="@drawable/outline_add_box_24"
-        app:iconGravity="textStart"
-        app:iconSize="58dp"
-        />
+        android:layout_marginTop="24dp"
+        android:background="#ded6cc"
+        android:gravity="center"
+        android:text="Emmanuel Bacron"
+        android:textColor="#fafbfc"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/flashcard_answer3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/flashcard_answer2"
+        android:layout_marginTop="24dp"
+        android:background="#ded6cc"
+        android:gravity="center"
+        android:text="Emmanuel Balbon"
+        android:textColor="#fafbfc"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageVisible"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_below="@+id/flashcard_answer3"
+        android:layout_marginTop="58dp"
+        app:srcCompat="@drawable/visible" />
+
+    <ImageView
+        android:id="@+id/imageInvisible"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_below="@+id/flashcard_answer3"
+        android:layout_marginTop="58dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/invisible" />
 
 
 </RelativeLayout>
