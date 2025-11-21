@@ -1,6 +1,6 @@
 ## Flashcard-Manda 🃏
 
-## Lab 1
+## Lab 1 Week 2
 
 ### App Description
 `It's a small note cards used for testing and improving memory through practiced information retrieval. The flashcards are typically two-sided, with the QUESTION on one side and the ANSWER about the question on the other.
@@ -19,6 +19,7 @@
 - [x] Style the question and answer side of the card to better distinguish between the two sides
 - [x] Add selectable multiple choice answers beneath the card
 - [x] Change the background color of the multiple choice answers when clicked to indicate whether the question waanswered correctly
+
 
 
 
